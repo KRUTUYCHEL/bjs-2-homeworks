@@ -16,6 +16,14 @@ describe("Домашнее задание к занятию 4 «Объекты»
     student.setSubject("Geometry");
     expect(student.subject).toEqual("Geometry");
   });
+  student1 = new Student("Василиса1", "женский", 19);
+
+
+  student2 = new Student("Василиса2", "женский", 19);
+
+
+  student3 = new Student("Василиса3", "женский", 19);
+
 
   it("Добавление группы оценок addMarks работает корректно", () => {
     let student = new Student("Василиса", "женский", 19);
